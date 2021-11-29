@@ -1,0 +1,21 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.box  
+{  
+background-color:#3d4543;  
+height:300px;  
+width:250px;  
+border-radius:10px;  
+position:relative;  
+top:80px;  
+left:40%;  
+}  
+
+.calculator 
+
+h1{
+    text-align: center;
+}
