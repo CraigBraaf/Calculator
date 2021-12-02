@@ -1,32 +1,51 @@
 body {
     padding: 0;
     margin: 0;
+    position: relative;
+    background-image: url('https://media.istockphoto.com/vectors/math-equations-written-on-a-blackboard-vector-id1219382595?k=20&m=1219382595&s=170667a&w=0&h=yCHEFjitU4hue-F2i0kjwbyWinoUDk-hL2ejwF7gkCA=');
 }
 
 .box  
 {  
-background-color:#3d4543;  
-height:500px;  
-width:350px;  
+background-color:#222726;  
+height: 620px;  
+width:450px;  
 border-radius:10px;  
 position:relative;  
 top:80px;  
-left:40%;  
+left:37%;  
+align-items: center;
+margin-top: -100px;
 }  
 
 #output {
     color: white;
+    background-color: rgb(97, 96, 96);
+    border-radius: 10px;
 }
 
-h1{
+h1{  
     text-align: center;
     position: relative;
     margin-top: 50px;
     font-weight: 100px;
+    color: white;
 }
 
 .buttons {
     position: relative;
-    
-    
+    margin-left: 20px;
+    margin-top: 60px;
 }
+
+.row {
+    margin-top: -15px;
+}
+
+.Cal {
+    color: white;
+    font-size: 400%;
+    text-align: center;
+    padding-top: 60px;
+}
+
